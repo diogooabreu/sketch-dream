@@ -1,0 +1,14 @@
+:root {
+    --primary-color: linear-gradient(to right, rgb(16, 5, 4), rgb(50, 15, 124));
+}
+
+body.primary-custom {
+    background-image: var(--primary-color) !important;
+}
+
+.irish-grover-regular {
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+  

@@ -1,0 +1,46 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px; 
+    background-color: #f8f9fa; 
+}
+
+.primary-custom {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-family: 'Irish Grover', sans-serif;
+    margin-bottom: 10px;
+}
+
+.footer .social-icons a {
+    color: white;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+    color: #17a2b8;
+}
