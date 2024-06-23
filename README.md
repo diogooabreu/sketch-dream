@@ -14,7 +14,7 @@ https://www.figma.com/file/a1VDbO1aNfZyulQPxT99OE/beleza-em-dia?node-id
 Lista de verificação | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
 RA1 - Utilizar Frameworks CSS para estilização de HTML e criação de layouts responsivos.
 
-    ID0 - Interfaces Prototipa adaptáveis para no mínimo no émdores de tela mobile e desktop, ferramentas que se delineam como Figma, Quant UX ou Sketch.
+[] ID0 - Interfaces Prototipa adaptáveis para no mínimo no émdores de tela mobile e desktop, ferramentas que se delineam como Figma, Quant UX ou Sketch.
     ID 01 - Implementa um layout responsivo de uma página web utilizando um Framework CSS, como Bootstrap ou Tailwind, que se adapt a adequadamente a diferentes tamanhos de tela e dispositivos.
     ID 02 - Utilizar técnicas avançadas de CSS, como Flexbox ou Grid Layout, layouts para criar responsivos e fluidos em resoluções diferentes de tela.
     ID 03 - Utilizar os componentes CSS e JavaScript por um oferecidos Framework CSS, como cartões, modais ou carros ouséis, frameworkando conformando estilos o necessário.
