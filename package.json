@@ -1,0 +1,18 @@
+{
+  "name": "sketch-dream",
+  "version": "1.0.0",
+  "description": "Este projeto tem como objetivo implementar progressivamente o conteúdo assistido em aula. Inspiração: DeviantArt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Diogo Nery de Abreu",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
