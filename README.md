@@ -4,12 +4,10 @@ Este projeto tem como objetivo implementar progressivamente o conteúdo assistid
 Inspiração: DeviantArt
 
 # O frontend da aplicação foi desenvolvido com HTML, CSS e JavaScript.
-
-https://utfpr-gp.github.io/roubank-css/
+https://github.com/diogooabreu/sketch-dream.git
 
 # Protótipo no Figma
-
-https://www.figma.com/file/a1VDbO1aNfZyulQPxT99OE/beleza-em-dia?node-id
+https://www.figma.com/design/OT9QPvnt8ps2fEEkqHPIuO/DesignSystem?node-id=2-2&t=Y3I3VHFWImxUX9f7-1
 
 Lista de verificação | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
 RA1 - Utilizar Frameworks CSS para estilização de HTML e criação de layouts responsivos.
