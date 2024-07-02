@@ -1,5 +1,10 @@
 :root {
     --primary-color: linear-gradient(to right, rgb(16, 5, 4), rgb(50, 15, 124));
+    --secondary-color: linear-gradient(to right, rgb(85, 85, 85), rgb(20, 20, 20));
+}
+
+.header-color-custom {
+    background-image: var(--secondary-color);
 }
 
 body.primary-custom {
@@ -11,4 +16,7 @@ body.primary-custom {
     font-weight: 400;
     font-style: normal;
 }
-  
+
+.btn-custom {
+    background-image: linear-gradient(to right,rgb(63, 255, 56), rgb(3, 179, 179)) !important;
+}

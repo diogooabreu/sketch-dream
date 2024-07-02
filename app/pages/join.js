@@ -1,40 +1,47 @@
-document.getElementById('join-form').addEventListener('submit', function(event) {
-    event.preventDefault();
+(function () {
+    document.getElementById('join-form').addEventListener('submit', function (event) {
+        event.preventDefault();
 
-    const name = document.getElementById('input-name').value;
-    const password = document.getElementById('input-password').value;
+        let isValid = true;
 
-    if (!isValidPassword(password)) {
-        alert('Invalid password. Your password must contain at least one number and cannot be a simple string.');
-        return;
-    }
+        const nameInput = document.getElementById('input-name');
+        const emailInput = document.getElementById('input-email');
+        const emailError = document.getElementById('email-error');
+        const rememberMeChek = document.getElementById('rememberMe');
 
-    const userId = generateUserId();
+        if (!emailInput.checkValidity()) {
+            isValid = false;
+            emailError.textContent = 'insira um e-mail válido!!!';
+        } else {
+            emailError.textContent = '';
+        }
 
-    const userData = {
-        userId: userId,
-        name: name,
-        password: password
-    };
+        const passwordInput = document.getElementById('input-password');
+        const errorPassword = document.getElementById('password-error');
 
-    localStorage.setItem('userData', JSON.stringify(userData));
+        if (!passwordInput.checkValidity()) {
+            isValid = false;
+            errorPassword.textContent = 'A senha deve ter entre 8 e 20 caracteres!!!!'
+        } else {
+            errorPassword.textContent = '';
+        }
+        
+        if (isValid) {
+            const userData = {
+                user: nameInput.value,
+                email: emailInput.value,
+                password: passwordInput.value
+            };
 
-    alert(`Welcome, ${name}!`);
+            if (rememberMeChek.checked) {
+                localStorage.setItem('userData', JSON.stringify(userData));
+                alert(`Bem vindo ${userData.user}`);
+            } else {
+                alert(`Bem vindo ${userData.user}, seus dados não serão salvos, deseja mesmo seguir?`);
+            }
 
-    window.location.href = '../index.html';
-});
+            window.location.href = 'feed.html';
+        }
+    }) 
+})();
 
-function isValidPassword(password) {
-    const regexSequential = /^(?:123456789|abcdefg|ABCDEFG)$/;
-    const regexNumber = /\d/;
-
-    if (regexSequential.test(password) || !regexNumber.test(password)) {
-        return false;
-    }
-
-    return true;
-}
-
-function generateUserId() {
-    return '_' + Math.random().toString(36).substr(2, 9);
-}

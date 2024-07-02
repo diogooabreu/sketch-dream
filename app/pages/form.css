@@ -6,9 +6,13 @@ html, body {
     height: 100%;
 }
 
-.form-img-text{
+.form-message{
     font-family: Roboto-serif;
     text-shadow: -4px 4px 2px rgb(138, 138, 138);
+}
+
+.word-shadows{
+    text-shadow: -10px 4px 5px rgb(190, 189, 189);
 }
 
 .bottom-text {
@@ -61,10 +65,41 @@ html, body {
 .abril-fatface-regular {
     font-family: "Abril Fatface", serif;
     font-weight: 400;
-font-style: normal;
+    font-style: normal;
 }
 
 
 .animate-on-hover:hover {
     animation: pulse 1s both;
+}
+
+.bi-eye-fill {
+    position: absolute;
+    margin-top: 10px;
+    right: 13px;
+    cursor: pointer;
+    color: gray;
+}
+
+.error-text {
+    color: red;
+    font-size: 0.9em;
+}
+
+.end-form {
+    color: gray;
+}
+
+.btn-close {
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.btn-close:hover {
+    background-color: rgb(43, 28, 109);
+}
+
+.effect:hover {
+    color:blue;
 }

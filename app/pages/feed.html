@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../../node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="../components/footer.css">
+    <link rel="stylesheet" href="feed.css">
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <title>SketchDream</title>
+</head>
+<body class="primary-custom">
+    <header class="container-fluid bg-dark py-3 cabecalho fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+            <div class="container">
+                <div class="header-color-custom rounded-5">
+                    <img class="w-25" src="../../assets/resources/img/logo.png" alt="">
+                <a class="h3 ms-2 irish-grover-regular text-white text-decoration-none" href="#">SketchDream</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <h2 class="navbar-nav justify-content-end flex-grow-1 pe-3 fs-1 irish-grover-regular">Gallery</h2>
+                        <button id="logout" class="btn btn-custom ms-2 animate__animated animate-on-hover fw-bold" onclick="logout()">LogOut</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="image-container"></div>
+        <div id="preloader" class="d-flex justify-content-center align-items-center mt-5fs-2">
+            <div class="spinner-border text-info" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <div class="spinner-border text-light" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+        </div>
+    </main>
+    <div id="footer"></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/resources/scripts/index.js"></script>
+    <script src="feed.js"></script>
+</body>
+</html>

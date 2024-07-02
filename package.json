@@ -6,10 +6,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Diogo Nery de Abreu",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "alertifyjs": "^1.14.0",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
