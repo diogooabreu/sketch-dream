@@ -20,21 +20,21 @@ RA1 - Utilizar Frameworks CSS para estilização de HTML e criação de layouts 
 - [x] ID 03 - Utilizar os componentes CSS e JavaScript por um oferecidos Framework CSS, como cartões, modais ou carros ouséis, frameworkando conformando estilos o necessário.
 - [x] ID 04 - Implementa um layout fluido e responsivo unidades de visualização de visualização de utilizando (vw, vh) em unidades de vez fixas (px) para experiência uma consistente de usuário em em tamanhos e dispositivos de tela.
 - [x] ID 05 - Implementa animações em elementos da página, como hover, fadeIn/fadeOut, slideIn/slideOut, CSS utilizando Animas ou bibliotecas de, como animação o Animate.css, para fornecer feedback visual ao usuário e criar uma experiência.
-- [x] ID 06 - Cria transições personalizados diferentes entre da da página ou estados, elementos como mudanças, alterações de cor ou/hide de, elementos, que se traduz CSS Transitions ou CSS Animation, para a aabilidade nos aparência e a aplicação da.
+- [x] ID 06 - Tópico cancelado.
 - [x] ID 07 - Aplica um Design System consistente, definindo diretrizes de estilo, núcleos, tipografia e padrões de componentes em toda aplicação em toda a aplicação, experiência uma usuário de usuário e uniforme.
 
-RA2 - Realizarizar de tratamento e aplica validações customizadas sem cliente, utilizando um lado de API faz expressões HTML e regulares (REGEX).
+RA2 - Realizar tratamento de formulários e aplicar validações customizadas no lado cliente, utilizando a API do HTML e expressões regulares (REGEX).
 
 - [x] ID 08 - Implementa tratamento de formulários no lado cliente com apresentação de mensagens de erro ou sucesso, utilizando os recursos da API do HTML, como validação de campos obrigatórios, tipo de entrada e limites de caracteres, garantindo que os dados inseridos sejam válidos antes de serem enviados para o servidor.
 - [x] ID 09 - Aplica expressões regulares (REGEX) eficiente para realiza validações customizadas nos campos des, como os formatos de e-mail, telefone, data ou outros definidos para padrões relacionados (REGEX) eficiente para realizar validações customizados no projeto.
 - [x] ID 10 - Incorpora elementos de listagem, como checkbox, rádio ou select, forma eficiente ems web, possibilitando uma seleção de coleta e precisa de dados usuários.
 - [x] ID 11 - Realiza a escrita e leitura de dados no Web Storage, a persistência de sessões de usuário e fornecendo maneira umamente dermado de dados de forma eficaz localmente no navegador.
 
-RA3 - Aplicar para otimização para o processo de desenvolvimento web com a internet, Node.js, NPM e linters para qualidade a do código do código, juntamento com boas práticas de versãoamento e organização de projetos.
+RA3 - Aplicar ferramentas para otimização do processo de desenvolvimento web, incluindo Node.js, NPM e linters para garantir a qualidade do código, juntamento com boas práticas de versionamento e organização de projetos.
 
 - [x] ID 12 - Configura adequadamente um ambiente de desenvolvimento de desenvolvimento Node.js e NPM para gerenciar e pacotes de dependência do projeto, facilitando a instalação a uso e de bibliotecas e ferramentas de desenvolvimento de terceiros.
 - [ ] ID 13 - tópico cancelado.
-- [x] ID 14 - Adota boas práticas de versionamento utilizando sistemas como Git, criando e gerenciando repositórios com branches adequados.
+- [ ] ID 14 - Adota boas práticas de versionamento utilizando sistemas como Git, criando e gerenciando repositórios com branches adequados.
 - [ ] ID 15 - tópico cancelado.
 - [x] ID 16 - Organiza arquivos do projeto em uma estrutura coerente, e lógica modular, facilitando a localização, manutenção e escadabilidade.
 - [ ]ID 17 - tópico cancelado.
