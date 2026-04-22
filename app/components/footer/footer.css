@@ -19,8 +19,9 @@ main {
 }
 
 footer {
-    margin-top: auto;
-    margin-bottom: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
 .footer {
@@ -35,12 +36,9 @@ footer {
     margin-bottom: 10px;
 }
 
-.footer .social-icons a {
+.footer 
+.social-icons a {
     color: white;
     margin-right: 10px;
     transition: color 0.3s ease;
-}
-
-.footer .social-icons a:hover {
-    color: #17a2b8;
 }
