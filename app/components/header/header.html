@@ -1,0 +1,39 @@
+<header class="container-fluid bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+        <div class="container">
+            <div>
+                <img class="w-25" src="../../../assets/resources/img/logo.png" alt="logo">
+                <a class="h3 irish-grover-regular text-white text-decoration-none" href="#">SketchDream</a>
+            </div>
+            <!--offcanvas inicio-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start text-white text-center bg-dark bg-opacity-75 m-2 rounded-end-5" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
+                    <button type="button" class="btn-close btn-close-dark bg-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../../app/pages/join/join.html">Join</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../../app/pages/login/login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link inactive" href="#">Contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link inactive" href="#">About</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-custom ms-2 d-none d-lg-block animate__animated animate-on-hover">
+                        <a href="../../app/pages/login/login.html" class="text-white text-decoration-none fw-bold">+ Submit</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

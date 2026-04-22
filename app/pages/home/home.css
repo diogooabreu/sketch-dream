@@ -3,6 +3,10 @@
     margin-left: 3rem; 
 }
 
+#gallery {
+    min-height: 100%;
+}
+
 .gallery-item {
     width: 340px;
     height: auto;

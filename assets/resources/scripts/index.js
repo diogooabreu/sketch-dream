@@ -1,8 +1,8 @@
 //unindo elementos
 $(document).ready(function () {
-    $("#header").load("/app/components/header.html");
-    $("#main").load("/app/pages/home.html");
-    $("#footer").load("/app/components/footer.html");
+    $("#header").load("/app/components/header/header.html");
+    $("#main").load("/app/pages/home/home.html");
+    $("#footer").load("/app/components/footer/footer.html");
 });
 
 $(document).on('click', 'a', function(e) {
