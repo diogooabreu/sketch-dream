@@ -73,27 +73,27 @@ https://www.figma.com/design/OT9QPvnt8ps2fEEkqHPIuO/DesignSystem?node-id=2-2&t=Y
 - Abrir um terminal (ctrl + alt + t)
 - Clonar o repositório
 ```
-    git clone https://github.com/diogooabreu/sketch-dream.git
+git clone https://github.com/diogooabreu/sketch-dream.git
 ```
 - Fazer checkout na branch develop, que contém as modificações mais recentes
 ```
-    git checkout develop
+git checkout develop
 ```
 - Instalar as dependências
 ```
-    npm install
+npm install
 ```
 - (Opcional) Instalar o JSON Server disponível em [json-server](https://www.npmjs.com/package/json-server)
 ```
-    npm i -g json-server
+npm i -g json-server
 ```
 - Executar a API Fake (JSON Server) via um dos comandos seguintes:
 ```
-    npm run json:server:routes
+npm run json:server:routes
 ```
 - Ou via Execução explícita: 
 ```
-    json-server --watch db.json --routes routes.json
+json-server --watch db.json --routes routes.json
 ```
 O comando para execução do JSON Server deve ser aplicado no raiz do projeto, ou, que contém o arquivo **db.json-routes.json**
 Por padrão, a aplicação JSON Server roda no endereço localhost:3000
