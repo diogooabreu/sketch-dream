@@ -4,10 +4,12 @@
 Projeto legado em estado de refatoração. 
 
 ## Objetivos atuais
-- Reorganização de arquitetura para seguir o padrão SPA (Single Page Aplication)
-- Atualização de dependências defasadas
-- Correção de bugs 
-- Melhoria da estrutura e legibilidade do código
+- **Consertar a arquitetura SPA:** Corrigir os bugs no JavaScript de roteamento, intercepção de links e manipulação de DOM.
+- **Resolver a componentização do HTML:** Refatorar as páginas para que atuem como fragmentos (partials) injetáveis, ao invés de documentos HTML completos aninhados.
+- **Corrigir links quebrados (Pathing):** Padronizar caminhos relativos que quebram ao carregar componentes assincronamente a partir da raiz.
+- **Implementar persistência de dados realista:** Substituir o uso rudimentar do `localStorage` por uma integração funcional com a API Fake (`json-server`).
+- **Remover redirecionamentos estáticos:** Eliminar redirecionamentos forçados (ex: `window.location.href`) que recarregam a página e destroem o fluxo da SPA.
+- **Alinhar dependências e ambiente:** Assegurar que as bibliotecas e CDNs (Bootstrap, AlertifyJS) carreguem corretamente na aplicação principal.
 
 ## Sobre o Projeto
 Esse projeto foi originalmente desenvolvido para implementação prática do conteúdo assistido em aula, com inspiração no site DeviantArt.
